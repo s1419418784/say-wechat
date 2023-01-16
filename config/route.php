@@ -14,8 +14,4 @@
 
 use Webman\Route;
 
-
-
-
-
-
+Route::post('/adminlogin', [app\controller\AdminController::class, 'AdminLogin'])->middleware([app\middleware\Jwtverification::class,]);

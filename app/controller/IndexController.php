@@ -2,6 +2,8 @@
 
 namespace app\controller;
 
+use Firebase\JWT\JWT;
+use Firebase\JWT\Key;
 use support\Request;
 
 class IndexController
